@@ -15,6 +15,5 @@ var percent = document.querySelector('.percent');
       progress.style.width = per + 'px';
       percent.textContent = count + '%';
     }
-  }
-}
+
 progress();
