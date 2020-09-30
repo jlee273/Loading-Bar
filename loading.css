@@ -45,7 +45,7 @@
   .text-blink{
     animation: animate .7s ease-in-out .1s;
   }
-  @keyframes animate {
+  @keyframes blink {
     0%{
       opacity: 1;
     }
