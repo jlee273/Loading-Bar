@@ -3,8 +3,8 @@
   padding: 0;
 }
 body{
-  font-family: 'Roboto';
-  background: #151515;
+  font-family: 'impact';
+  background: white;
 }
 .loading{
   position: absolute;
@@ -16,7 +16,7 @@ body{
   font-size: 80px;
   font-weight: 400;
   text-align: center;
-  color: #999;
+  color: black;
   margin-bottom: 25px;
 }
 .add{
@@ -44,13 +44,13 @@ body{
 .progress{
   width: 203px;
   height: 16px;
-  background: #f60d54;
+  background: yellow;
   border-radius: 13px;
 }
 .percent{
   position: absolute;
   left: 187px;
-  color: #fdb5ca;
+  color:orange;
   font-size: 15px;
   font-weight: bold;
   letter-spacing: 1px;

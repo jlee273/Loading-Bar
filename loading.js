@@ -6,7 +6,7 @@ var per = 16;
 var loading = setInterval(animate, 50);
 function animate(){
   if(count == 100 && per == 400){
-    text.textContent = "Completed";
+    text.textContent = "Yeah";
     text.style.fontSize = "70px";
     text.classList.add("add");
     clearInterval(loading);
