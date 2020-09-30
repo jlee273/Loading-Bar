@@ -1,20 +1,59 @@
-.wrapper {
-    width: 500px;
-}
-
-.loading-bar {
-    width: 100%;
-    background-color: #e0e0e0;
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    font-family: 'impact';
+    background: white;
+  }
+  .loading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .percent{
+    color: red;
+    font-size: 100px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .progress-bar{
+    width: 406px;
+    height: 21px;
+    background: yellow;
+    border-radius: 13px;
     padding: 3px;
-    border-radius: 3px;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2);
-}
-
-.loading-bar-fill {
-    display: block;
-    height: 22px;
-    background-color: #659cef;
-    border-radius: 3px;
-    
-    transition: width 500ms ease-in-out;
-}
+    box-sizing: border-box;
+  }
+  .progress{
+    width: 10px;
+    height: 15px;
+    background: black;
+    border-radius: 13px;
+  }
+  .text{
+    position: absolute;
+    left: 160px;
+    color: red;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 21px;
+    display: none;
+  }
+  .text-blink{
+    animation: animate .7s ease-in-out .1s;
+  }
+  @keyframes animate {
+    0%{
+      opacity: 1;
+    }
+    50%{
+      opacity: 0.2;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+  
